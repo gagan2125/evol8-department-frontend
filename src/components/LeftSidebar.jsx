@@ -16,14 +16,14 @@ const LeftSidebar = () => {
       } bg-dark-purple h-screen p-5  pt-8 relative duration-300`}
     >
       <img
-        src="./src/assets/control.png"
+        src="src/assets/control.png"
         className={`absolute cursor-pointer -right-3 top-9 w-7 border-dark-purple
            border-2 rounded-full  ${!open && "rotate-180"}`}
         onClick={() => setOpen(!open)}
       />
       <div className="flex gap-x-4 items-center">
         <img
-          src="./src/assets/logo.png"
+          src="src/assets/logo.png"
           className={`cursor-pointer duration-500 ${open && "rotate-[360deg]"}`}
         />
         <h1
