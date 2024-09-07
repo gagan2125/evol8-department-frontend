@@ -48,7 +48,7 @@ const LeftSidebar = () => {
                     : ""
                 }`}
               >
-                <img src={`./src/assets/${Menu.src}.png`} />
+                <img src={`/assets/${Menu.src}.png`} />
                 <span
                   className={`${!open && "hidden"} origin-left duration-200`}
                 >
