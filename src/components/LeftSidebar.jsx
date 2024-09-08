@@ -7,6 +7,8 @@ const LeftSidebar = () => {
   const Menus = [
     { title: "Dashboard", src: "Chart_fill", location: "/" },
     { title: "Department", src: "User", location: "/department" },
+    { title: "Category", src: "Folder", location: "/category" },
+    { title: "Sub Category", src: "Chart", location: "/subcategory" },
     { title: "Setting ", src: "Setting", gap: true, location: "/settings" },
   ];
   return (

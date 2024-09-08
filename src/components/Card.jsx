@@ -1,4 +1,4 @@
-const Card = ({ count, activeCount }) => {
+const Card = ({ count, activeCount, title }) => {
   return (
     <div className="max-w-sm bg-white shadow-lg rounded-lg overflow-hidden ml-0 mt-12">
       <div className="p-6">
@@ -7,7 +7,7 @@ const Card = ({ count, activeCount }) => {
             {count}
           </div>
           <div className="ml-4">
-            <h4 className="text-xl font-semibold text-gray-700">Departments</h4>
+            <h4 className="text-xl font-semibold text-gray-700">{title}</h4>
             <p className="text-gray-500">Total Active - {activeCount}</p>
           </div>
         </div>
